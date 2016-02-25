@@ -5,14 +5,16 @@ var taxiLocationCounter = 1;
 body.onkeydown = function(e){
   if ((taxiLocationCounter > 0) && (taxiLocationCounter < 10)) {
     var keyname = keyCodeName(e.keyCode);
-    var trafficLight = new TrafficLight(taxiLocationCounter);
+    var  trafficLight = new TrafficLight(taxiLocationCounter);
   
     if (e.keyCode === 39) {
       moveForward();
     } else if (e.keyCode === 37) {
       moveBack();
     } else if (e.keyCode === 38) {
+       trafficLight.makeRed();
     } else if (e.keyCode === 40) {
+      trafficLight.makeGreen();
     } else {
       return false
     }; 
@@ -84,8 +86,8 @@ var createTrafficLightClass = function(c) {
 };
   
 
-function TrafficLight() {
-  var className = createTrafficLightClass(1);
+function TrafficLight(taxiLocationCounter) {
+  var className = createTrafficLightClass(taxiLocationCounter);
   var trafficLightElement = document.querySelector(className);
   
   this.makeRed = function() {
