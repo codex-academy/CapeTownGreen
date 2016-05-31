@@ -24,4 +24,4 @@ Let's check that it works using: `git remote -v`. You should now see the two `or
 
 ## Sync your fork
 
-Run `git fetch upstream` to get the most recent updates from the codex version of the repository. Now merge those changes into your `gh-pages` branch by running `git merge upstream/gh-pages`.
+Run `git fetch upstream` to get the most recent updates from the codeX version of the repository. Now merge those changes into your `gh-pages` branch by running `git merge upstream/gh-pages`.
