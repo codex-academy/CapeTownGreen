@@ -10,15 +10,15 @@ layout: default
 
 Things are not well: our taxi is stuck and can't move anywhere. Commuters are getting annoyed!
 
-Can you please help by getting the Taxi to move forward? Once the Taxi is moving there is chaos as the Traffic Lights are not working. You need to fix that as well and make sure that the Taxi stops at red lights. And yes when it is green it's full steam ahead. Oh yes and we would like the taxi to be able to reverse.
+Can you please help by getting the Taxi to move forward? Once the Taxi is moving there's chaos as the Traffic Lights are not working. You need to fix that as well and make sure that the Taxi stops at red lights. And yes when it is green it's full steam ahead. Oh yes and we would like the taxi to be able to reverse.
 
-But now the taxi is moving full steam ahead and there is no one onboard! Fix that by adding a queue at the rank and make a taxi wait until everyone is onboard the taxi before the light goes green.
+But now the taxi is moving full steam ahead and there's no one onboard! Fix that by adding a queue at the rank and make a taxi wait until everyone is onboard the taxi before the light goes green.
 
 The last challenge is to make sure that people at the rank queue according to their budget. Our taxi's price is R5, R10 or R20 and they don't give change. Let commuters wait in queues arranged by budget. If a taxi arrives, it should take commuters from the queue that is matching it's fare price. Taxi fare prices are R5, R10, or R20. Be sure not to overload your taxi, it should have a `maxPassenger` attribute.
 
 ## Getting this done
 
-To get all of the above done we at codeX will provide all the HTML & CSS. You need to write some JavaScript code to get the Taxi moving. It uses the skills you learned in Codecademy and we introduce some DOM manipulation skills.
+To get all the above done we at codeX will provide all the HTML & CSS. You need to write some JavaScript code to get the Taxi moving. It uses the skills you learned in Codecademy and we introduce some DOM manipulation skills.
 
 The DOM skills introduced are:
 
