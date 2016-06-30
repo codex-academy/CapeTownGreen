@@ -1,5 +1,6 @@
 ---
 layout: default
+unitstandard: 115362-SO2-AC1
 ---
 
 # Taxi
@@ -28,6 +29,10 @@ The DOM skills introduced are:
 ### Get the code
 
 Log in to [GitHub](http://github.org) and fork this [repository](https://github.com/codex-academy/CapeTownGreen) into your profile. Now clone your fork of this repository into your projects folder. Do all the work for this project in that folder.
+
+A fork is your personal copy of someone else's work, copied to your GitHub account. You might take that copy as a starting point for your own work, or you might use it to suggest changes to the original.
+
+If the original (the `upstream` version) changes, you might want to update your personal copy (the fork) with that new content. Have a look at [Syncing and Forking](saf.html) for more information.
 
 ### Look at it
 
